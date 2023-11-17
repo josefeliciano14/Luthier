@@ -16,11 +16,17 @@ function scaledown(target){
     tl.to(target, {scale: 1.0, duration: 0.3});
 }
 
-document.getElementById("resume-item").addEventListener("mouseover", () => scaleup("#resume-item"));
-document.getElementById("resume-item").addEventListener("mouseout", () => scaledown("#resume-item"));
+document.getElementById("guitarist-item").addEventListener("mouseover", () => scaleup("#guitarist-item"));
+document.getElementById("guitarist-item").addEventListener("mouseout", () => scaledown("#guitarist-item"));
 
-document.getElementById("timeline-item").addEventListener("mouseover", () => scaleup("#timeline-item"));
-document.getElementById("timeline-item").addEventListener("mouseout", () => scaledown("#timeline-item"));
+document.getElementById("luthier-item").addEventListener("mouseover", () => scaleup("#luthier-item"));
+document.getElementById("luthier-item").addEventListener("mouseout", () => scaledown("#luthier-item"));
 
 document.getElementById("contact-item").addEventListener("mouseover", () => scaleup("#contact-item"));
 document.getElementById("contact-item").addEventListener("mouseout", () => scaledown("#contact-item"));
+
+document.getElementById("vai-item").addEventListener("mouseover", () => scaleup("#vai-item"));
+document.getElementById("vai-item").addEventListener("mouseout", () => scaledown("#vai-item"));
+
+document.getElementById("bio-item").addEventListener("mouseover", () => scaleup("#bio-item"));
+document.getElementById("bio-item").addEventListener("mouseout", () => scaledown("#bio-item"));
