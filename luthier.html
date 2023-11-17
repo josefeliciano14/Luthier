@@ -7,6 +7,7 @@
         <title>Luthier</title>
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/contact.css">
+        <link rel="stylesheet" href="./css/luthier.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -15,19 +16,22 @@
 
     <style>
         img{
-            width: 30%;
-            margin: 20px;
+            max-width:200px;
+            max-height:200px;
+            width: auto;
+            height: auto;
         }
     </style>
 
     <body>
         <div class="background">
             <nav>
-                <a href="/Luthier/index.html"><h1>Jose Feliciano</h1></a>
+                <a href="/Luthier/index.html"><h1>J Feliciano</h1></a>
                 <ul class="nav-links">
                     <li><a href="/Luthier/guitarist.html">Guitarist</a></li>
                     <li><a href="/Luthier/luthier.html">Luthier</a></li>
                     <li><a href="/Luthier/vai.html">Vai</a></li>
+                    <li><a href="/Luthier/bio.html">Bio</a></li>
                     <li><a href="/Luthier/contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -35,113 +39,84 @@
             <main>
                 <h1 class="title">Luthier</h1>
 
-                <img style="width: 80%;" src="./img/Workshop/IMG_6074.JPG"/>
+                <div class="album-container">
+                    <a href="./albums/workshop.html">
+                        <div class="album">
+                            <img src="./img/Workshop/IMG_6074.JPG"/>
+                            <span>Workshop</span>
+                        </div>
+                    </a>
 
-                <h2 style="margin-top: 40px;">First Guitar I Ever Made</h2>
-                <img style="width: 80%;" src="./img/Telecaster/IMG_3826.JPG"/>
+                    <a href="./albums/telecaster.html">
+                        <div class="album">
+                            <img src="./img/Telecaster/IMG_3826.JPG"/>
+                            <span>Telecaster</span>
+                        </div>
+                    </a>
 
-                <h2 style="margin-top: 40px;">Custom Guitar</h2>
-                <img style="width: 80%;" src="./img/Kiesel/2.jpg"/>
-                <img style="width: 80%;" src="./img/Kiesel/5.jpg"/>
+                    <a href="./albums/kiesel.html">
+                        <div class="album">
+                            <img src="./img/Kiesel/3.jpg"/>
+                            <span>Kiesel Replica</span>
+                        </div>
+                    </a>
 
-                <h2 style="margin-top: 40px;">Left Handed Mustang</h2>
-                <img style="width: 80%;" src="./img/Lefty Mustang/20220815_173832.jpg"/>
+                    <a href="./albums/mustang.html">
+                        <div class="album">
+                            <img src="./img/Lefty Mustang/20220815_173832.jpg"/>
+                            <span>Left Handed Mustang</span>
+                        </div>
+                    </a>
 
-                <h2 style="margin-top: 40px;">Ukulele from StewMac Kit</h2>
+                    <a href="./albums/ukulele.html">
+                        <div class="album">
+                            <img src="./img/Ukulele/20220930_230538.jpg"/>
+                            <span>Ukulele</span>
+                        </div>
+                    </a>
 
-                <img src="./img/Ukulele/20220817_141705.jpg"/>
-                <img src="./img/Ukulele/20220818_115104.jpg"/>
-                <img src="./img/Ukulele/20220819_154006.jpg"/>
-                <img src="./img/Ukulele/20220913_124326.jpg"/>
-                <img src="./img/Ukulele/20220913_125837.jpg"/>
-                <img src="./img/Ukulele/20220913_142815.jpg"/>
-                <img src="./img/Ukulele/20220930_230538.jpg"/>
-                <img src="./img/Ukulele/20220930_230558.jpg"/>
-                <img src="./img/Ukulele/20220930_230807.jpg"/>
+                    <a href="./albums/fabric.html">
+                        <div class="album">
+                            <img src="./img/Paisley Telecaster/IMG_5257.JPG"/>
+                            <span>Fabric Top</span>
+                        </div>
+                    </a>
 
-                <h2 style="margin-top: 40px;">Paisley Telecaster Experiment</h2>
-                <img style="width: 80%;"  src="./img/Paisley Telecaster/IMG_5256.JPG"/>
+                    <a href="./albums/led.html">
+                        <div class="album">
+                            <img src="./img/LED Guitar/1.jpg"/>
+                            <span>LED Fretboard</span>
+                        </div>
+                    </a>
 
-                <h2 style="margin-top: 40px;">Pedal Controlled RGB LED Guitar inspired by Steve Vai's "Bo"</h2>
+                    <a href="./albums/cosmocaster.html">
+                        <div class="album">
+                            <img src="./img/Cosmocaster/IMG_6540.JPG"/>
+                            <span>Cosmocaster</span>
+                        </div>
+                    </a>
 
-                <img src="./img/LED Guitar/1.jpg"/>
-                <img src="./img/LED Guitar/20230520_161011.jpg"/>
-                <img src="./img/LED Guitar/20230521_135249.jpg"/>
-                <img src="./img/LED Guitar/20230522_174408.jpg"/>
-                <img src="./img/LED Guitar/20230524_191617.jpg"/>
-                <img src="./img/LED Guitar/Pedal 1.jpg"/>
-                <img src="./img/LED Guitar/Pedal 2.jpg"/>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/qdHxYiOoZNA?si=eAppPJLsdzNa37Vj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/_X6vJCoJbCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Piu3mCLlbmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <a href="./albums/jackson.html">
+                        <div class="album">
+                            <img src="./img/Jackson Restoration/20230121_160542.jpg"/>
+                            <span>Jackson Restoration</span>
+                        </div>
+                    </a>
 
-                <h2 style="margin-top: 40px;">Custom Guitar - "Cosmocaster"</h2>
-                <img src="./img/Cosmocaster/IMG_6027.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6041.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6043.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6119.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6131.png"/>
-                <img src="./img/Cosmocaster/IMG_6133.png"/>
-                <img src="./img/Cosmocaster/IMG_6140.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6141.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6186.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6187.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6224.png"/>
-                <img src="./img/Cosmocaster/IMG_6225.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6226.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6235.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6243.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6247.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6248.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6251.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6252.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6257.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6260.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6261.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6262.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6263.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6265.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6267.png"/>
-                <img src="./img/Cosmocaster/IMG_6272.png"/>
-                <img src="./img/Cosmocaster/IMG_6272.png"/>
-                <img src="./img/Cosmocaster/IMG_6273.png"/>
-                <img src="./img/Cosmocaster/IMG_6281.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6284.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6285.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6294.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6298.png"/>
-                <img src="./img/Cosmocaster/IMG_6299.png"/>
-                <img src="./img/Cosmocaster/IMG_6324.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6336.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6366.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6368.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6369.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6373.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6376.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6381.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6382.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6383.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6419.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6436.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6437.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6465.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6468.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6474.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6488.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6498.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6499.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6523.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6524.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6525.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6539.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6540.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6541.JPG"/>
-                <img src="./img/Cosmocaster/IMG_6947.JPG"/>
-                <img src="./img/Cosmocaster/IMG_7000.JPG"/>
+                    <a href="./albums/stratres.html">
+                        <div class="album">
+                            <img src="./img/Stratocaster Restoration/20230103_140105.jpg"/>
+                            <span>Stratocaster Restoration</span>
+                        </div>
+                    </a>
 
-                <h2 style="margin-top: 40px;">CNC Custom Software - Nicknamed GuitarCode</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/AV7f1f95AUI?si=plFXHapxjh1Zfc5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/UsCAsgULwSM?si=wDo_WeJL0MxEXUpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <a href="./albums/cnc.html">
+                        <div class="album">
+                            <img src="./img/cnc/cnc.png"/>
+                            <span>CNC</span>
+                        </div>
+                    </a>
+                </div>
             </main>
         </div>
 

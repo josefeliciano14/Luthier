@@ -1,0 +1,19 @@
+.title{
+    margin-bottom: 40px;
+}
+
+img{
+    width: 70%;
+    margin: 20px;
+}
+
+iframe{
+    width: 70%;
+    margin: 20px;
+    height: 500px;
+}
+
+p{
+    margin: 20px;
+    width: 70%;
+}
