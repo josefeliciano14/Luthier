@@ -30,3 +30,6 @@ document.getElementById("vai-item").addEventListener("mouseout", () => scaledown
 
 document.getElementById("bio-item").addEventListener("mouseover", () => scaleup("#bio-item"));
 document.getElementById("bio-item").addEventListener("mouseout", () => scaledown("#bio-item"));
+
+document.getElementById("collection-item").addEventListener("mouseover", () => scaleup("#collection-item"));
+document.getElementById("collection-item").addEventListener("mouseout", () => scaledown("#collection-item"));
